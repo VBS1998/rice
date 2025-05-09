@@ -1,0 +1,38 @@
+#window {
+  background-color: #1e1e2e;
+}
+
+#entry {
+  background-color: transparent;
+  color: #cdd6f4;
+}
+
+#entry:selected {
+  background-color: #89b4fa;
+  color: #1e1e2e;
+}
+
+/* Search bar (input) */
+#input {
+  background-color: #2e3440;  /* Dark background for search bar */
+  color: #eceff4;             /* Light text color */
+  border-radius: 5px;         /* Rounded corners */
+  padding: 5px 10px;          /* Padding inside the search bar */
+  font-size: 14px;            /* Font size */
+}
+
+/* Placeholder text color in the search bar */
+#input::placeholder {
+  color: #5e81ac;             /* Light blue for placeholder text */
+}
+
+#window {
+  border: 3px solid #5e81ac;  /* Change color and thickness of border */
+  background-color: #2e3440;   /* Background color */
+  overflow: hidden;
+}
+
+/* Optional: Add padding or shadow for more visual effect */
+#window {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow effect *
+}

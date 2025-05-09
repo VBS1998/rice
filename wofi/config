@@ -1,0 +1,4 @@
+location=top_right
+width=20%
+height=80%
+style=/home/vilasboas/.config/wofi/styles.css
